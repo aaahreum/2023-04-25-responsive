@@ -75,5 +75,17 @@
         </div>
       </div>
     </div>
+
+    <script>
+      const gnb = document.querySelector(".gnb");
+      const bars = document.querySelector(".bars i");
+      console.log(bars);
+      console.log(gnb);
+
+      bars.addEventListener("click", function () {
+        gnb.classList.toggle("active");
+        this.classList.toggle("xi-close");
+      });
+    </script>
   </body>
 </html>
